@@ -1,0 +1,27 @@
+package com.products.model;
+
+public class Products {
+	
+	private Long prod_id;
+	private String prod_name;
+	private String prod_category;
+	private double prod_price;
+	private String prod_size_color;
+	
+	
+	Products(){}
+
+
+	public Products(Long prod_id, String prod_name, String prod_category, double prod_price, String prod_size_color) {
+		super();
+		this.prod_id = prod_id;
+		this.prod_name = prod_name;
+		this.prod_category = prod_category;
+		this.prod_price = prod_price;
+		this.prod_size_color = prod_size_color;
+	}
+	
+	
+	
+	
+}

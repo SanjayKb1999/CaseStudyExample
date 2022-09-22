@@ -1,0 +1,39 @@
+package com.products.service;
+
+
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.products.model.product;
+import com.products.repository.ProductsRepository;
+
+
+@Service
+public class service {
+
+	@Autowired
+	private static ProductsRepository repository;
+	
+
+	public product addUser(product user) {
+		return repository.save(user);
+	}
+
+	public static List<product> getproduct() {
+		List<product> users = repository.findAll();
+		System.out.println("Getting data from DB : " + users);
+		return users;
+	}
+
+	public Optional<product> getUserbyID(long prod_id) {
+		return repository.findById(prod_id);
+	}
+
+	public void deleteUser(product prod) {
+		repository.delete(prod);
+	}
+}

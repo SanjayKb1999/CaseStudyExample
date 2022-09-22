@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
+    <fullyQualifiedTypeName name="com.products.repository.ProductsRepository"/>
+    <fullyQualifiedTypeName name="com.products.service.service"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="com.products.model.product"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+</qualifiedTypeNameHistroy>

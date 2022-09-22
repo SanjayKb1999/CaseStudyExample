@@ -1,0 +1,16 @@
+package com.products.model;
+
+public class Products {
+	
+	private Long prod_id;
+	private String prod_name;
+	private String prod_category;
+	private double prod_price;
+	private String prod_size_color;
+	
+	
+	Products(){}
+	
+	
+	
+}
